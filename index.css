@@ -1,18 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Monoton&display=swap&family=Arvo&family=Poppins:wght@500&display=swap&family=Roboto&display=swap');
-
-
-
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.homebg-container{
+    background-color: rgb(212, 181, 42);
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading{
+    color: #f70707;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.home-container{
+    background-color: rgb(123, 105, 187);
+    height: 30vh;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.text-area{
+    color: #ffffff;
+    text-align: center;
+    height: 10vh;
+    width: 80%;
+    font-size: 20px;
+    outline: none;
+    padding-top: 30px;
+    border-color: black;
+    border: 30;
+    
+}
+
+.key-text-container{
+    background-color:rgb(243, 29, 179);
+    margin-bottom: 30px;
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.key-text{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.values-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.accuracy{
+    color: rgb(42, 6, 247);
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
 }
